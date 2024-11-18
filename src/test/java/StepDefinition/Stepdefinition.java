@@ -94,6 +94,57 @@ public void click_on_quick_create() {
 @Then("perform dropdown and select New Asset")
 public void perform_dropdown_and_select_new_asset() {
 	System.out.println("quickCreate1233");
-	}   
+	}  
+/**
+ * Calender
+ */
+@Then("Click on Calender")
+public void click_on_calender() {
+	System.out.println("calender1");
+}
+
+@Then("perform CalenderPart")
+public void perform_calender_part() {
+	System.out.println("calender2");
+}
+
+/**
+ * contact
+ */
+@Then("Click on Contact")
+public void click_on_contact() {
+	System.out.println("cntact1");
+}
+
+@Then("perform ContactPart")
+public void perform_contact_part() {
+	System.out.println("contact2");
+} 
+
+/**
+ * Lead
+ */
+@Then("Click on Lead")
+public void click_on_lead() {
+	System.out.println("lead");
+}
+
+@Then("perform LeadPart")
+public void perform_lead_part() {
+	System.out.println("lead2");
+}
+
+/**
+ * Document
+ */
+@Then("Click on Document")
+public void click_on_document() {
+	System.out.println("document1");
+}
+
+@Then("perform DocumentPart")
+public void perform_document_part() {
+	System.out.println("document2");
+}
 
 }
